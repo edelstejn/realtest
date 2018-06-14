@@ -44,10 +44,10 @@
                 }
             }
     },
-    "uncode-child-theme":{
+    "unchild":{
             "type": "package",
             "package": {
-                "name": "edelstejn/uncode-child-theme",
+                "name": "edelstejn/unchild",
                 "type": "wordpress-theme",
                 "version": "1.0",
                 "source": {
@@ -190,7 +190,7 @@
     "edelstejn/vc-clipboard": "1.0",
     "edelstejn/uncode-js-comp": "1.0",
     "edelstejn/vcparticlesbackground": "1.0",
-
+    "edelstejn/unchild": "1.0",
     "wpackagist-plugin/taxonomy-terms-order":"1.5.4",
     "wpackagist-plugin/contact-form-7":"5.0.2"
   },

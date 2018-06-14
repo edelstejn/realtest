@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5efe5891660154e04af95f4d1a3becfe",
+    "content-hash": "a27d706d4f4a9ce2ee9215025e726f3d",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,16 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "edelstejn/unchild",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/unchild.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "edelstejn/uncode",
