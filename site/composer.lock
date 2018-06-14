@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d2bd37e41bce47cf6fcdf52389c174e",
+    "content-hash": "5efe5891660154e04af95f4d1a3becfe",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,26 +125,6 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
-        },
-        {
-            "name": "edelstejn/layerslider",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:edelstejn/layerslider.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "edelstejn/revslider",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:edelstejn/revslider.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "edelstejn/uncode",
