@@ -24,21 +24,176 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "discard-changes": true
   },
-  "repositories": [
-    {
+  "repositories": {
+    "0":{
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    "uncode":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/uncode",
+                "type": "wordpress-theme",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/uncode.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "unchild":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/unchild",
+                "type": "wordpress-theme",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/unchild.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "wp-sync-db":{
+            "type": "package",
+            "package": {
+                "name": "wp-sync-db/wp-sync-db",
+                "type": "wordpress-plugin",
+                "version": "1.5",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:wp-sync-db/wp-sync-db.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "wp-sync-db-media-files":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/wp-sync-db-media-files",
+                "type": "wordpress-plugin",
+                "version": "1.1.5",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/wp-sync-db-media-files.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "uncode-core":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/uncode-core",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/uncode-core.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "uncode-livesearch":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/uncode-livesearch",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/uncode-livesearch.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "vc-clipboard":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/vc-clipboard",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/vc-clipboard.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "vcparticlesbackground":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/vcparticlesbackground",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/vcparticlesbackground.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "layerslider":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/layerslider",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/layerslider.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "revslider":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/revslider",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/revslider.git",
+                    "reference": "master"
+                }
+            }
+    },
+    "uncode-js-comp":{
+            "type": "package",
+            "package": {
+                "name": "edelstejn/uncode-js-comp",
+                "type": "wordpress-plugin",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:edelstejn/uncode-js-comp.git",
+                    "reference": "master"
+                }
+            }
     }
-  ],
+  },
   "require": {
     "php": ">=5.6",
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "edelstejn/uncode": "1.0",
+    "edelstejn/unchild": "1.0",
+    "wp-sync-db/wp-sync-db":"1.5",
+    "edelstejn/wp-sync-db-media-files":"1.1.5",
+    "edelstejn/uncode-core": "1.0",
+    "edelstejn/uncode-livesearch": "1.0",
+    "edelstejn/vc-clipboard": "1.0",
+    "edelstejn/uncode-js-comp": "1.0",
+    "edelstejn/vcparticlesbackground": "1.0",
+    "wpackagist-plugin/taxonomy-terms-order":"1.5.4",
+    "wpackagist-plugin/contact-form-7":"5.0.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

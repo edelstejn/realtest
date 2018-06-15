@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ae57d1173b1c7d35d71925128af1c30",
+    "content-hash": "cbe6ade9c803f8091456bebc6846bf82",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,86 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "edelstejn/unchild",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/unchild.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "edelstejn/uncode",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/uncode.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "edelstejn/uncode-core",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/uncode-core.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/uncode-js-comp",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/uncode-js-comp.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/uncode-livesearch",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/uncode-livesearch.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/vc-clipboard",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/vc-clipboard.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/vcparticlesbackground",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/vcparticlesbackground.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/wp-sync-db-media-files",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/wp-sync-db-media-files.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -402,21 +482,71 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "1.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:wp-sync-db/wp-sync-db.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/taxonomy-terms-order",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/taxonomy-terms-order/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/taxonomy-terms-order.1.5.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/taxonomy-terms-order/"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.2.3",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
+                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
-                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
+                "reference": "d86873af43b4aa9d1f39a3601cc0cfcf02b25266",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +584,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-20T21:35:23+00:00"
+            "time": "2018-06-06T23:58:19+00:00"
         }
     ],
     "aliases": [],
