@@ -21,3 +21,7 @@ raw_vars:
   - vault_users.*.password
   - vault_users.*.salt
   - vault_wordpress_sites
+
+## CUSTOM CODE BY REALTRUE
+php_max_input_time: 3000
+php_max_input_vars: 3000
