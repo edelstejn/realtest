@@ -18,3 +18,9 @@ web/.htaccess
 # Composer
 vendor/*
 !vendor/.gitkeep
+# Don’t ignore themes dir, but ignore everything inside
+!web/app/themes
+web/app//themes/*
+
+# Don’t ignore uncode-child theme
+!web/app//themes/uncode-child
