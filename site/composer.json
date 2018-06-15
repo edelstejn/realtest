@@ -183,6 +183,8 @@
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
+    "edelstejn/uncode": "1.0",
+    "edelstejn/unchild": "1.0",
     "wp-sync-db/wp-sync-db":"1.5",
     "edelstejn/wp-sync-db-media-files":"1.1.5",
     "edelstejn/uncode-core": "1.0",
