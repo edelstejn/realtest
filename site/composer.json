@@ -24,7 +24,8 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "discard-changes": true
   },
   "repositories": {
     "0":{
@@ -182,7 +183,6 @@
     "johnpbloch/wordpress": "4.9.6",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "edelstejn/uncode": "1.0",
     "wp-sync-db/wp-sync-db":"1.5",
     "edelstejn/wp-sync-db-media-files":"1.1.5",
     "edelstejn/uncode-core": "1.0",
@@ -190,7 +190,6 @@
     "edelstejn/vc-clipboard": "1.0",
     "edelstejn/uncode-js-comp": "1.0",
     "edelstejn/vcparticlesbackground": "1.0",
-    "edelstejn/unchild": "1.0",
     "wpackagist-plugin/taxonomy-terms-order":"1.5.4",
     "wpackagist-plugin/contact-form-7":"5.0.2"
   },
