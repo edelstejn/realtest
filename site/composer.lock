@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbe6ade9c803f8091456bebc6846bf82",
+    "content-hash": "2fa0666e93096e1d06f7de17fd4af12b",
     "packages": [
         {
             "name": "composer/installers",
@@ -192,16 +192,6 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:edelstejn/vcparticlesbackground.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "edelstejn/wp-sync-db-media-files",
-            "version": "1.1.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:edelstejn/wp-sync-db-media-files.git",
                 "reference": "master"
             },
             "type": "wordpress-plugin"
@@ -494,6 +484,17 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "1.1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files/archive/1.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "5.0.2",
             "source": {
@@ -532,6 +533,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/taxonomy-terms-order/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "3.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/3.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         }
     ],
     "packages-dev": [
