@@ -176,6 +176,19 @@
                 "url": "https://github.com/wp-sync-db/wp-sync-db-media-files/archive/1.1.5.zip"
             }
         }
+    },
+    "YTPlayer":{
+            "type": "package",
+            "package": {
+                "name": "pupunzi/jquery.mb.YTPlayer",
+                "type": "wordpress-plugin",
+                "version": "3.2.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:pupunzi/jquery.mb.YTPlayer.git",
+                    "reference": "master"
+                }
+            }
     }
   },
   "require": {
@@ -196,7 +209,9 @@
     "wpackagist-plugin/contact-form-7": "5.0.2",
     "wpackagist-plugin/woocommerce": "3.4.2",
     "wp-sync-db/wp-sync-db":"1.5",
-    "wp-sync-db/wp-sync-db-media-files": "1.1.5"
+    "wp-sync-db/wp-sync-db-media-files": "1.1.5",
+    "edelstejn/layerslider":"1.0",
+    "edelstejn/revslider":"1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

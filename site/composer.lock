@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fa0666e93096e1d06f7de17fd4af12b",
+    "content-hash": "0d9b33fd1ac4246bea72ed5f6c9df656",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,26 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "edelstejn/layerslider",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/layerslider.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "edelstejn/revslider",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:edelstejn/revslider.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "edelstejn/unchild",
@@ -365,6 +385,16 @@
                 "env"
             ],
             "time": "2017-07-17T20:41:59+00:00"
+        },
+        {
+            "name": "pupunzi/jquery.mb.YTPlayer",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:pupunzi/jquery.mb.YTPlayer.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "roots/wp-password-bcrypt",
