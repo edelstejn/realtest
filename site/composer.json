@@ -217,7 +217,7 @@
     "wpackagist-plugin/jetpack":"6.2.1",
     "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout":"1.5.6",
     "wpackagist-plugin/woocommerce-gateway-stripe":"4.1.7",
-    "wpackagist-plugin/woocommerce-gateway-stripe":"1.14.1"
+    "wpackagist-plugin/woocommerce-services":"1.14.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
