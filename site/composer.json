@@ -212,7 +212,12 @@
     "wp-sync-db/wp-sync-db":"1.5",
     "edelstejn/layerslider":"1.0",
     "edelstejn/revslider":"1.0",
-    "wpackagist-plugin/all-in-one-wp-migration":"6.70"
+    "wpackagist-plugin/all-in-one-wp-migration":"6.70",
+    "wpackagist-plugin/duplicate-page":"2.6",
+    "wpackagist-plugin/jetpack":"6.2.1",
+    "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout":"1.5.6",
+    "wpackagist-plugin/woocommerce-gateway-stripe":"4.1.7",
+    "wpackagist-plugin/woocommerce-gateway-stripe":"1.14.1",
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
