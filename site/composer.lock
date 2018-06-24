@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "685ad44db18a6591de27db4c28ca383e",
+    "content-hash": "fd5bbbaceeeae5e9af859999ccd3cf85",
     "packages": [
         {
             "name": "composer/installers",
@@ -494,6 +494,26 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "6.70",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/6.70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.6.70.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "5.0.2",
             "source": {
@@ -512,26 +532,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
-            "name": "wpackagist-plugin/duplicator",
-            "version": "1.2.40",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/duplicator/",
-                "reference": "tags/1.2.40"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicator.1.2.40.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/duplicator/"
         },
         {
             "name": "wpackagist-plugin/taxonomy-terms-order",
